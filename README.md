@@ -65,9 +65,9 @@ When I pressed play in Unreal, the cube was rotating and bobbing up and down cor
 
 ## Outcome
 
-The final result of this has a cube that rotates and bobs up and down, this meets the requirements of the task as I have successfully compiled a C++ Class in Unreal Engine, and have modified its Vector and Rotation Properties within the Tick Function.
+The final result of this has a cube that rotates and bobs up and down, this meets the requirements of the task as I have successfully compiled a C++ Class in Unreal Engine, and have modified its Vector and Rotation Properties within the Tick Function.  
 *Figure 4: A gif of a rotating cube in Unreal Engine*
-![A gif of a rotating cube in Unreal Engine](./README%20Assets/rotatingcube.gif "Rotating Cube")
+![A gif of a rotating cube in Unreal Engine](./README%20Assets/rotatingcube.gif "Rotating Cube")  
 This gif clearly shows that after creating a Blueprint Class that inherits from the C++ Class, the cube rotates and moves vertically similar to a typical pickup in a videogame.
 
 ---
