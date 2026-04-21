@@ -2,19 +2,22 @@
 
 ---
 
-## 1. Introduction
+## Introduction
 
 For this project, I was tasked with the creation of a C++ Unreal Project, to compile it successfully, and to highlight a class and a property or function within C++ in Unreal. To do this I utilised Unreal's Documentation to successfully create a C++ class representing a slowly rotating actor that also moves up and down, similar to an item pickup in many games. This was an important task to do as my first introduction to using C++ within Unreal, and helped with my understanding of its implementation within the engine. I utilised a separate blueprint class that inherits from the C++ class using a basic cube mesh in order to visually represent the actions taken by the C++ class. This is helpful as Blueprints and Unreal C++ are designed with the intention of being used together for the most efficient and effective workflow. 
 
+*Figure 1: A gif of a rotating cube in Unreal Engine*
 ![A gif of a rotating cube in Unreal Engine](./README%20Assets/rotatingcube.gif "Rotating Cube")
 
 ---
 
-## 2. Implementation (≈200 words)
+## Implementation
 
 For this project I first used created a C++ class and a Header class for the C++ class to inherit from, to complete this task I utilised an online tutorial to create a rotating cube. Using Visual Studio 2022, and C++ in Unreal, I was able to follow the steps to create a cube.
 
 To begin with, I created an Actor C++ Class in Unreal, I then moved to Visual Studio by opening the solution file in order to edit the class and its header file.  
+
+*Figure 2: A screenshot of Visual Studio 2022*  
 ![A screenshot of Visual Studio 2022](./README%20Assets/VS22F.png "Classes")  
 I then opened the header file "MyClass.h" and added the following code underneath the class declaration for AMyClass
 
@@ -53,49 +56,33 @@ I then built the class and moved back to Unreal to check. When I placed the Acto
 
 When I pressed play in Unreal, the cube was rotating and bobbing up and down correctly, as it should have been.
 
+*Figure 3: An image of a cube in Unreal Engine*  
 ![](./README%20Assets/rotatingcube.png "")
 
 
 
 ---
 
-## 3. Outcome (≈150 words)
+## Outcome
 
-- State what the final result does and how it behaves  
-- Confirm that all task requirements have been met  
-- Provide a link to a short demonstration video  
-- Describe the demonstrated functionality  
-
-**Demonstration video link:**  
+The final result of this has a cube that rotates and bobs up and down, this meets the requirements of the task as I have successfully compiled a C++ Class in Unreal Engine, and have modified its Vector and Rotation Properties within the Tick Function.
+*Figure 4: A gif of a rotating cube in Unreal Engine*
+![A gif of a rotating cube in Unreal Engine](./README%20Assets/rotatingcube.gif "Rotating Cube")
+This gif clearly shows that after creating a Blueprint Class that inherits from the C++ Class, the cube rotates and moves vertically similar to a typical pickup in a videogame.
 
 ---
 
-## 4. Bibliography
+## Bibliography
 
 - List all external sources used (documentation, tutorials, articles, etc.)  
 - Use the universities referencing style
 
----
-
-## 5. AI Usage Declaration
-
-- State whether AI tools were used or not  
-- If used, name the tool(s) and describe how they were used  
+USE ZOTERO LATER PLEASE
 
 ---
 
-## Submission Notes & Checklist
+## AI Usage Declaration
 
-> Remove this section once complete — use this as a checklist before submitting
-
-- Total word count: **500 words (±10%)** across Sections 1–3  
-- **Figure captions and figure descriptions do NOT count towards the word count**  
-- Use **plenty of images, GIFs, videos, screenshots, and short code snippets** where appropriate to demonstrate understanding and functionality  
-- All required **source code is included in this repository**  
-- Any required **executables or builds are provided via GitHub Releases**, where appropriate  
-- Demonstration video link is accessible and clearly shows functionality  
-- Bibliography includes all referenced material  
-- AI usage is clearly declared (or explicitly stated as not used)  
-- Work reflects your own understanding and professional practice  
+Copilot was used for the purposes of IntelliSense to assist with coding.
 
 ---
