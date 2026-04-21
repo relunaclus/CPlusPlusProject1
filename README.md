@@ -74,15 +74,9 @@ This gif clearly shows that after creating a Blueprint Class that inherits from 
 
 ## Bibliography
 
-- List all external sources used (documentation, tutorials, articles, etc.)  
-- Use the universities referencing style
-
-USE ZOTERO LATER PLEASE
-
----
+Unreal Engine CPP Quick Start | Unreal Engine 5.7 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/unreal-engine/unreal-engine-cpp-quick-start (Accessed  15/04/2026).
+Verhoeff, S. (2026) Setting up Unreal Engine for C++ Development in 2026. At: https://medium.com/@sophia.verhoeff/setting-up-unreal-engine-for-c-development-in-2026-fcd56cd26392 (Accessed  15/04/2026).
 
 ## AI Usage Declaration
 
 Copilot was used for the purposes of IntelliSense to assist with coding.
-
----
